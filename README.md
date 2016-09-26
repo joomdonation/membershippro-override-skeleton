@@ -7,21 +7,17 @@ From version 2.6.4, **Membership Pro** has a mechanism to allow you to override 
 **Membership Pro** has some helper classes which you can see in components/com_osmembership/helper folder. Currently, the following static methods can be overrided:
 
 1. OSMembershipHelper::buildTags
-2. OSMembershipHelper::calculateIndividualRegistrationFees
-3. OSMembershipHelper::calculateGroupRegistrationFees
-4. OSMembershipHelper::calculateCartRegistrationFee
-5. OSMembershipHelper::generateInvoicePDF
-6. OSMembershipHelperMail::sendEmails
-7. OSMembershipHelperMail::sendRegistrationApprovedEmail
-8. OSMembershipHelperMail::sendRegistrationCancelledEmail
-9. OSMembershipHelperMail::sendRegistrationCancelledEmail
-10. OSMembershipHelperMail::sendWaitinglistEmail
-11. OSMembershipHelperMail::sendDepositPaymentEmail
-12. OSMembershipHelperMail::sendNewEventNotificationEmail
-13. OSMembershipHelperMail::sendReminder
-14. OSMembershipHelperMail::sendDepositReminder
-15. OSMembershipHelperJquery::validateForm
-
+2. OSMembershipHelper::calculateSubscriptionFee
+3. OSMembershipHelper::generateInvoicePDF
+4. OSMembershipHelperMail::sendEmails
+5. OSMembershipHelperMail::sendMembershipRenewalEmails
+6. OSMembershipHelperMail::sendMembershipUpgradeEmails
+7. OSMembershipHelperMail::sendMembershipApprovedEmail
+8. OSMembershipHelperMail::sendSubscriptionCancelEmail
+9. OSMembershipHelperMail::sendProfileUpdateEmail
+10. OSMembershipHelperMail::sendReminderEmails
+11. OSMembershipHelperJquery::validateForm
+12. OSMembershipHelperData::excelExport
 
 
 To customize a method in one of these classes, please folow the steps below:
